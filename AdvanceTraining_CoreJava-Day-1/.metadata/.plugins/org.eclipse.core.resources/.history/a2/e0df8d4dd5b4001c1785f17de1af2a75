@@ -1,0 +1,43 @@
+package com;
+
+
+import java.util.Scanner;
+public class Description {
+	
+	 int n;
+		String bName;
+		double bPrice;
+		
+	public void createBooks()
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of books to be added");
+		n= sc.nextInt();
+		
+		for(int i=1;i<=n;i++)
+		{
+			System.out.println("Enter the book title");
+			bName= sc.next();
+			System.out.println("Enter the book title");
+			bPrice= sc.nextDouble();
+			
+		}
+	}
+	
+	
+	public void showBooks()
+	{
+		System.out.print("Book Title		price");
+		System.out.print( bName+			    +bPrice);
+	}
+	
+	
+}
+
+
+
+
+
+
+

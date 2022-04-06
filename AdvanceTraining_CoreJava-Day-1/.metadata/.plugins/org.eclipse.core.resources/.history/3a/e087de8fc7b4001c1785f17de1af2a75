@@ -1,0 +1,18 @@
+package com;
+import java.util.Scanner;
+
+public class TestRectangle {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the Length of the rectangle");
+		double lengtgh = sc.nextDouble();
+		System.out.println("Enter the Breadth of the rectangle");
+		double breadth = sc.nextDouble();
+		Rectangle rc1 = new Rectangle(lengtgh, breadth);
+		
+		
+	}
+
+}

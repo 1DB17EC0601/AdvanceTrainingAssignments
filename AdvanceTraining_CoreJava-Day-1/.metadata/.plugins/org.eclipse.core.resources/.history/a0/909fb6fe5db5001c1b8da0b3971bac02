@@ -1,0 +1,8 @@
+
+public interface MedicineInfo {
+	
+	
+	
+	public abstract void displayLabel();
+
+}

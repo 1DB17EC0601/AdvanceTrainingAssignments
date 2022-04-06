@@ -1,0 +1,21 @@
+package com;
+
+import java.util.Scanner; 
+
+public class MainClass {
+	
+	 public static void main(String[] args) {
+		
+		Instrument p = new Piano();
+		p.play();
+		Instrument g= new Guitar();
+		g.play();
+		Instrument f=new Flute();
+		f.play();
+		 
+		 
+		 
+		
+		 
+	}
+}

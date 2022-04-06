@@ -1,0 +1,15 @@
+package com;
+
+
+public class TestRectangle {
+	
+	public static void main(String[] args) {
+		
+	
+		
+		Rectangle rc1 = new Rectangle(25.4, 25);
+		
+	    
+	}
+
+}

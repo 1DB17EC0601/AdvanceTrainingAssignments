@@ -1,0 +1,30 @@
+
+public class TestMedicine {
+	
+	
+	public static MedicineInfo selectMedicine(int choice)
+	{
+		if(choice==1)
+		{
+			return new Syrup();
+		}
+		
+		else if(choice==2) {
+			return new Tablet();
+		}
+		else if(choice==3)
+		{
+			return new Ointment();
+			
+		}
+		
+		else
+			return null;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+
+public interface MedicineInfo {
+	
+	String companyName="sun pharma";
+	String country="India";
+	
+   public void displayLabel();
+
+
+
+}

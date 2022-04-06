@@ -1,0 +1,16 @@
+
+
+public class TestMedicine {
+	
+	public static void main(String[] args) {
+		
+	Tablet t = new Tablet();
+	Syrup s= new Syrup();
+	Ointment o = new Ointment();
+	
+	t.displayLabel();
+	
+	s.displayLabel();
+	o.displayLabel();
+}
+}

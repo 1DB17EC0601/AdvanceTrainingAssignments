@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.LinkedList&apos; to &apos;Employee&apos;&#x0D;&#x0A;- Original project: &apos;ProblemStatement-6.3&apos;&#x0D;&#x0A;- Original element: &apos;com.LinkedList&apos;&#x0D;&#x0A;- Renamed element: &apos;com.Employee&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkedList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com{LinkedList.java[LinkedList" matchStrategy="1" name="Employee" qualified="false" references="true" similarDeclarations="false" stamp="1649237309757" textual="false" version="1.0"/>
+</session>

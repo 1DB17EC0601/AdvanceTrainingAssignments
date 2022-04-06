@@ -1,0 +1,34 @@
+package com;
+
+
+public class Rectangle {
+	
+	private double length;
+	private double breadth;
+	public Rectangle(double length, double breadth) {
+		
+		this.length = length;
+		this.breadth = breadth;
+	}
+	public double getLength() {
+		return length;
+	}
+	public void setLength(double length) {
+		this.length = length;
+	}
+	public double getBredth() {
+		return breadth;
+	}
+	public void setBredth(double bredth) {
+		this.breadth = breadth;
+	}
+	
+	public void areaOfRectangle(double length, double breadth)
+	{
+		double result= length*breadth;
+		System.out.println("The area of a rectangle for length "+length+" and breadth "+breadth+" is "+result);
+		
+	}
+	
+
+}

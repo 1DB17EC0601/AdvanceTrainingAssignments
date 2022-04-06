@@ -1,0 +1,19 @@
+package com;
+
+import java.util.Scanner;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		String name;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the name");
+		name=sc.nextLine();
+		
+		System.out.println("The length of String is "+name.length());
+		System.out.println(name.toUpperCase());
+	}
+	
+
+}
